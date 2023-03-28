@@ -1,0 +1,5 @@
+[04-Mar-2023 21:51:48 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From): заявка in /home/a110580/public_html/avtodocs.z-email.ru/phpmailer/src/PHPMailer.php:1255
+Stack trace:
+#0 /home/a110580/public_html/avtodocs.z-email.ru/sendmail.php(14): PHPMailer\PHPMailer\PHPMailer->setFrom('\xD0\xB7\xD0\xB0\xD1\x8F\xD0\xB2\xD0\xBA\xD0\xB0', '\xD0\xB7\xD0\xB0\xD1\x8F\xD0\xB2\xD0\xBA\xD0\xB0')
+#1 {main}
+  thrown in /home/a110580/public_html/avtodocs.z-email.ru/phpmailer/src/PHPMailer.php on line 1255
